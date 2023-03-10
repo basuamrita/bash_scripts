@@ -1,13 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set the backup location
-BACKUP_DIR=/path/to/backup/directory
+BACKUP_DIR=(/home/amrita)
 
 # Set the source directory to backup
-SOURCE_DIR=/path/to/source/directory
+SOURCE_DIR=(/mnt/c/Users/Rajdeep/OneDrive/Desktop/GITHUB)
 
 # Set the backup filename
 BACKUP_FILENAME=backup_$(date +%Y%m%d).tar.gz
 
 # Create the backup
-tar -czf $BACKUP_DIR/$BACKUP_FILENAME $SOURCE_DIR
+tar -cvzf $BACKUP_FILENAME *
+

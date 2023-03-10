@@ -1,10 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set the directory containing the files to compress
-DIR=/path/to/directory
+DIR=logs_archive
 
 # Set the compression format
-FORMAT=tar.gz
 
 # Compress the files
-tar -czf $DIR/files.$FORMAT $DIR/*
+tar -czvf logs_archive.tar.gz *
