@@ -10,6 +10,7 @@ EXTENSION=.txt
 PREFIX=new_file_
 
 # Rename the files
-for file in $DIR/*$EXTENSION; do
+for file in $DIR/*$EXTENSION;
+do
   mv "$file" "$DIR/$PREFIX$(basename "$file")"
 done
