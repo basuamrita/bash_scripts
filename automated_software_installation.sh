@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set the list of software packages to install
-PACKAGES=(package1 package2 package3)
+PACKAGES="apache2"
 
 # Install the packages
 for package in ${PACKAGES[@]}; do
