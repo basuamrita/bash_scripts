@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set the directory containing the files to rename
-DIR=/path/to/directory
+DIR="/mnt/c/Users/Rajdeep/OneDrive/Desktop/testing2"
 
 # Set the file extension to rename
 EXTENSION=.txt
